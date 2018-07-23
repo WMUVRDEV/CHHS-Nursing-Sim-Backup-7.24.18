@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: 68be00b932a7de34fbdfd813f80b9b43
+timeCreated: 1531765851
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: bottom
+    100002: DoubleTray
+    100004: DressingChangeTray_Single
+    100006: SingleTray
+    100008: //RootNode
+    100010: TrayCover
+    100012: TripleTray
+    100014: TrachCareKit_Dressing_Trays:bottom
+    100016: TrachCareKit_Dressing_Trays:DoubleTray
+    100018: TrachCareKit_Dressing_Trays:DressingChangeTray_Single
+    100020: TrachCareKit_Dressing_Trays:SingleTray
+    100022: TrachCareKit_Dressing_Trays:TrayCover
+    100024: TrachCareKit_Dressing_Trays:TripleTray
+    400000: bottom
+    400002: DoubleTray
+    400004: DressingChangeTray_Single
+    400006: SingleTray
+    400008: //RootNode
+    400010: TrayCover
+    400012: TripleTray
+    400014: TrachCareKit_Dressing_Trays:bottom
+    400016: TrachCareKit_Dressing_Trays:DoubleTray
+    400018: TrachCareKit_Dressing_Trays:DressingChangeTray_Single
+    400020: TrachCareKit_Dressing_Trays:SingleTray
+    400022: TrachCareKit_Dressing_Trays:TrayCover
+    400024: TrachCareKit_Dressing_Trays:TripleTray
+    2000000: bottom
+    2000002: TrachCareKit_Dressing_Trays:bottom
+    2100000: TyvekCover
+    2100002: MilkeyPlastic
+    2100004: TrachCareKit_Dressing_Trays_TyvekCover
+    2100006: Default_Material
+    2100008: TrayCover
+    2300000: DoubleTray
+    2300002: DressingChangeTray_Single
+    2300004: SingleTray
+    2300006: TrayCover
+    2300008: TripleTray
+    2300010: TrachCareKit_Dressing_Trays:DoubleTray
+    2300012: TrachCareKit_Dressing_Trays:DressingChangeTray_Single
+    2300014: TrachCareKit_Dressing_Trays:SingleTray
+    2300016: TrachCareKit_Dressing_Trays:TrayCover
+    2300018: TrachCareKit_Dressing_Trays:TripleTray
+    3300000: DoubleTray
+    3300002: DressingChangeTray_Single
+    3300004: SingleTray
+    3300006: TrayCover
+    3300008: TripleTray
+    3300010: TrachCareKit_Dressing_Trays:DoubleTray
+    3300012: TrachCareKit_Dressing_Trays:DressingChangeTray_Single
+    3300014: TrachCareKit_Dressing_Trays:SingleTray
+    3300016: TrachCareKit_Dressing_Trays:TrayCover
+    3300018: TrachCareKit_Dressing_Trays:TripleTray
+    4300000: DressingChangeTray_Single
+    4300002: DoubleTray
+    4300004: TripleTray
+    4300006: SingleTray
+    4300008: TrayCover
+    4300010: TrachCareKit_Dressing_Trays:DressingChangeTray_Single
+    4300012: TrachCareKit_Dressing_Trays:DoubleTray
+    4300014: TrachCareKit_Dressing_Trays:TripleTray
+    4300016: TrachCareKit_Dressing_Trays:SingleTray
+    4300018: TrachCareKit_Dressing_Trays:TrayCover
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: 75d5fa99c3d045c48a507c9035eb9fd4
+timeCreated: 1518623958
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BpComputerMount
+    100004: Caster001
+    100006: Caster002
+    100008: Caster003
+    100010: Caster004
+    100012: Caster005
+    100014: CasterWheel001
+    100016: CasterWheel002
+    100018: CasterWheel003
+    100020: CasterWheel004
+    100022: CasterWheel005
+    400000: //RootNode
+    400002: BpComputerMount
+    400004: Caster001
+    400006: Caster002
+    400008: Caster003
+    400010: Caster004
+    400012: Caster005
+    400014: CasterWheel001
+    400016: CasterWheel002
+    400018: CasterWheel003
+    400020: CasterWheel004
+    400022: CasterWheel005
+    2100000: No Name
+    2300000: //RootNode
+    2300002: BpComputerMount
+    2300004: Caster001
+    2300006: Caster002
+    2300008: Caster003
+    2300010: Caster004
+    2300012: Caster005
+    2300014: CasterWheel001
+    2300016: CasterWheel002
+    2300018: CasterWheel003
+    2300020: CasterWheel004
+    2300022: CasterWheel005
+    3300000: //RootNode
+    3300002: BpComputerMount
+    3300004: Caster001
+    3300006: Caster002
+    3300008: Caster003
+    3300010: Caster004
+    3300012: Caster005
+    3300014: CasterWheel001
+    3300016: CasterWheel002
+    3300018: CasterWheel003
+    3300020: CasterWheel004
+    3300022: CasterWheel005
+    4300000: BpStandBase
+    4300002: Caster001
+    4300004: CasterWheel001
+    4300006: Caster002
+    4300008: CasterWheel002
+    4300010: Caster003
+    4300012: CasterWheel003
+    4300014: Caster004
+    4300016: CasterWheel004
+    4300018: Caster005
+    4300020: CasterWheel005
+    4300022: BpComputerMount
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

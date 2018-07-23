@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: 09ca754d0afae5b44ae98207207835d7
+timeCreated: 1531843244
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cabinet
+    100002: ColdHandle
+    100004: Counter1
+    100006: Drawer1
+    100008: Drawer2
+    100010: Drawer3
+    100012: Drawer4
+    100014: Faucet
+    100016: FaucetBase
+    100018: HotHandle
+    100020: Knob1
+    100022: Knob1 1
+    100024: Knob1 2
+    100026: Knob1 3
+    100028: Knob5
+    100030: Knob5 1
+    100032: LeftDoor
+    100034: polySurface3
+    100036: polySurface3 1
+    100038: RightDoor
+    100040: Sink1
+    100042: SinkInner
+    100044: SinkOuter
+    100046: //RootNode
+    400000: Cabinet
+    400002: ColdHandle
+    400004: Counter1
+    400006: Drawer1
+    400008: Drawer2
+    400010: Drawer3
+    400012: Drawer4
+    400014: Faucet
+    400016: FaucetBase
+    400018: HotHandle
+    400020: Knob1
+    400022: Knob1 1
+    400024: Knob1 2
+    400026: Knob1 3
+    400028: Knob5
+    400030: Knob5 1
+    400032: LeftDoor
+    400034: polySurface3
+    400036: polySurface3 1
+    400038: RightDoor
+    400040: Sink1
+    400042: SinkInner
+    400044: SinkOuter
+    400046: //RootNode
+    2100000: TheOneAndOnly
+    2300000: Cabinet
+    2300002: ColdHandle
+    2300004: Counter1
+    2300006: Drawer1
+    2300008: Drawer2
+    2300010: Drawer3
+    2300012: Drawer4
+    2300014: Faucet
+    2300016: FaucetBase
+    2300018: HotHandle
+    2300020: Knob1
+    2300022: Knob1 1
+    2300024: Knob1 2
+    2300026: Knob1 3
+    2300028: Knob5
+    2300030: Knob5 1
+    2300032: LeftDoor
+    2300034: polySurface3
+    2300036: polySurface3 1
+    2300038: RightDoor
+    2300040: SinkInner
+    2300042: SinkOuter
+    3300000: Cabinet
+    3300002: ColdHandle
+    3300004: Counter1
+    3300006: Drawer1
+    3300008: Drawer2
+    3300010: Drawer3
+    3300012: Drawer4
+    3300014: Faucet
+    3300016: FaucetBase
+    3300018: HotHandle
+    3300020: Knob1
+    3300022: Knob1 1
+    3300024: Knob1 2
+    3300026: Knob1 3
+    3300028: Knob5
+    3300030: Knob5 1
+    3300032: LeftDoor
+    3300034: polySurface3
+    3300036: polySurface3 1
+    3300038: RightDoor
+    3300040: SinkInner
+    3300042: SinkOuter
+    4300000: Counter1
+    4300002: HotHandle
+    4300004: polySurface3
+    4300006: ColdHandle
+    4300008: polySurface3
+    4300010: Faucet
+    4300012: FaucetBase
+    4300014: SinkOuter
+    4300016: SinkInner
+    4300018: Cabinet
+    4300020: RightDoor
+    4300022: Knob5
+    4300024: LeftDoor
+    4300026: Knob5
+    4300028: Drawer1
+    4300030: Knob1
+    4300032: Drawer2
+    4300034: Knob1
+    4300036: Drawer3
+    4300038: Knob1
+    4300040: Drawer4
+    4300042: Knob1
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

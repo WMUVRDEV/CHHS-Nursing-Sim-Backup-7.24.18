@@ -1,0 +1,259 @@
+fileFormatVersion: 2
+guid: 86898fe6b1e653c41a7221ebed4ea8a4
+timeCreated: 1517869341
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Adjustable Legs
+    100004: BaseofLegs
+    100006: Bed Frame
+    100008: Bed Group
+    100010: Bed Rails
+    100012: Bed Rails 3
+    100014: Bed Rails 4
+    100016: BedPivot_Head
+    100018: BedPivot_Head001
+    100020: Bracket 1
+    100022: Bracket 2
+    100024: Bracket 3
+    100026: Bracket 4
+    100028: Bracket 5
+    100030: Bracket 6
+    100032: Bracket 7
+    100034: Bracket 8
+    100036: Casters
+    100038: Casters001
+    100040: Casters002
+    100042: Casters003
+    100044: Connecting bar
+    100046: Connecting bar001
+    100048: Cylinder001
+    100050: Cylinder002
+    100052: Cylinder003
+    100054: Cylinder004
+    100056: Footboard
+    100058: Headboard
+    100060: Plane001
+    100062: Wheels
+    100064: Wheels001
+    100066: Wheels002
+    100068: Wheels003
+    400000: //RootNode
+    400002: Adjustable Legs
+    400004: BaseofLegs
+    400006: Bed Frame
+    400008: Bed Group
+    400010: Bed Rails
+    400012: Bed Rails 3
+    400014: Bed Rails 4
+    400016: BedPivot_Head
+    400018: BedPivot_Head001
+    400020: Bracket 1
+    400022: Bracket 2
+    400024: Bracket 3
+    400026: Bracket 4
+    400028: Bracket 5
+    400030: Bracket 6
+    400032: Bracket 7
+    400034: Bracket 8
+    400036: Casters
+    400038: Casters001
+    400040: Casters002
+    400042: Casters003
+    400044: Connecting bar
+    400046: Connecting bar001
+    400048: Cylinder001
+    400050: Cylinder002
+    400052: Cylinder003
+    400054: Cylinder004
+    400056: Footboard
+    400058: Headboard
+    400060: Plane001
+    400062: Wheels
+    400064: Wheels001
+    400066: Wheels002
+    400068: Wheels003
+    2100000: 'Material #47'
+    2100002: No Name
+    2100004: 'Material #48'
+    2300000: Adjustable Legs
+    2300002: BaseofLegs
+    2300004: Bed Frame
+    2300006: Bed Rails
+    2300008: Bed Rails 3
+    2300010: Bed Rails 4
+    2300012: BedPivot_Head
+    2300014: BedPivot_Head001
+    2300016: Bracket 1
+    2300018: Bracket 2
+    2300020: Bracket 3
+    2300022: Bracket 4
+    2300024: Bracket 5
+    2300026: Bracket 6
+    2300028: Bracket 7
+    2300030: Bracket 8
+    2300032: Casters
+    2300034: Casters001
+    2300036: Casters002
+    2300038: Casters003
+    2300040: Connecting bar
+    2300042: Connecting bar001
+    2300044: Cylinder001
+    2300046: Cylinder002
+    2300048: Cylinder003
+    2300050: Cylinder004
+    2300052: Footboard
+    2300054: Headboard
+    2300056: Plane001
+    2300058: Wheels
+    2300060: Wheels001
+    2300062: Wheels002
+    2300064: Wheels003
+    3300000: Adjustable Legs
+    3300002: BaseofLegs
+    3300004: Bed Frame
+    3300006: Bed Rails
+    3300008: Bed Rails 3
+    3300010: Bed Rails 4
+    3300012: BedPivot_Head
+    3300014: BedPivot_Head001
+    3300016: Bracket 1
+    3300018: Bracket 2
+    3300020: Bracket 3
+    3300022: Bracket 4
+    3300024: Bracket 5
+    3300026: Bracket 6
+    3300028: Bracket 7
+    3300030: Bracket 8
+    3300032: Casters
+    3300034: Casters001
+    3300036: Casters002
+    3300038: Casters003
+    3300040: Connecting bar
+    3300042: Connecting bar001
+    3300044: Cylinder001
+    3300046: Cylinder002
+    3300048: Cylinder003
+    3300050: Cylinder004
+    3300052: Footboard
+    3300054: Headboard
+    3300056: Plane001
+    3300058: Wheels
+    3300060: Wheels001
+    3300062: Wheels002
+    3300064: Wheels003
+    4300000: Plane001
+    4300002: Wheels
+    4300004: Casters
+    4300006: Cylinder001
+    4300008: Wheels001
+    4300010: Cylinder002
+    4300012: Casters001
+    4300014: Wheels002
+    4300016: Cylinder003
+    4300018: Casters002
+    4300020: Wheels003
+    4300022: Cylinder004
+    4300024: Casters003
+    4300026: Headboard
+    4300028: Footboard
+    4300030: BedPivot_Head001
+    4300032: BedPivot_Head
+    4300034: Bed Rails
+    4300036: Bed Rails 3
+    4300038: Bed Rails 4
+    4300040: Bracket 1
+    4300042: Bracket 2
+    4300044: Bracket 3
+    4300046: Bracket 4
+    4300048: Bracket 5
+    4300050: Bracket 6
+    4300052: Bracket 7
+    4300054: Bracket 8
+    4300056: Bed Frame
+    4300058: BaseofLegs
+    4300060: Connecting bar
+    4300062: Connecting bar001
+    4300064: Adjustable Legs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

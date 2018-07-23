@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="76c91da5-2294-470b-a262-69e2bf71bf62" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="SterileGloves.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/New Item Interactions/SterileGloves.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="915">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+              <folding>
+                <marker date="1531490050968" expanded="true" signature="6:92" ph="..." />
+                <marker date="1531490050968" expanded="true" signature="139:1414" ph="{...}" />
+                <marker date="1531490050968" expanded="true" signature="377:416" ph="{...}" />
+                <marker date="1531490050968" expanded="true" signature="473:513" ph="{...}" />
+                <marker date="1531490050968" expanded="true" signature="532:669" ph="{...}" />
+                <marker date="1531490050968" expanded="true" signature="618:663" ph="{...}" />
+                <marker date="1531490050968" expanded="true" signature="707:1407" ph="{...}" />
+                <marker date="1531490050968" expanded="true" signature="948:1115" ph="{...}" />
+                <marker date="1531490050968" expanded="true" signature="1150:1320" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OvrAvatarSkinnedMeshRenderPBSV2Component.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/VR Frameworks/OvrAvatar/Scripts/OvrAvatarSkinnedMeshRenderPBSV2Component.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
+              <folding>
+                <marker date="1528323783000" expanded="false" signature="6:109" ph="..." />
+                <marker date="1528323783000" expanded="true" signature="191:7727" ph="{...}" />
+                <marker date="1528323783000" expanded="true" signature="662:1814" ph="{...}" />
+                <marker date="1528323783000" expanded="true" signature="1612:1808" ph="{...}" />
+                <marker date="1528323783000" expanded="true" signature="1949:2625" ph="{...}" />
+                <marker date="1528323783000" expanded="true" signature="2402:2581" ph="{...}" />
+                <marker date="1528323783000" expanded="true" signature="2449:2571" ph="{...}" />
+                <marker date="1528323783000" expanded="true" signature="2710:5396" ph="{...}" />
+                <marker date="1528323783000" expanded="true" signature="3381:3480" ph="{...}" />
+                <marker date="1528323783000" expanded="true" signature="3528:3625" ph="{...}" />
+                <marker date="1528323783000" expanded="true" signature="3663:3763" ph="{...}" />
+                <marker date="1528323783000" expanded="true" signature="5058:5243" ph="{...}" />
+                <marker date="1528323783000" expanded="true" signature="5474:7725" ph="{...}" />
+                <marker date="1528323783000" expanded="true" signature="5658:7627" ph="{...}" />
+                <marker date="1528323783000" expanded="true" signature="6074:7562" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/New Item Interactions/SterileGloves.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/VR Frameworks/OvrAvatar/Scripts/OvrAvatarSkinnedMeshRenderPBSV2Component.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/New Item Interactions/SterileGloves.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="3576" />
+    <option name="y" value="396" />
+    <option name="width" value="2488" />
+    <option name="height" value="1578" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Nursing Package Test" type="483dac07:UnityExplorerNode$Root" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76c91da5-2294-470b-a262-69e2bf71bf62" name="Default" comment="" />
+      <created>1531488913195</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531488913195</updated>
+      <workItem from="1531488916396" duration="1134000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1134000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="3373" y="317" width="1990" height="1262" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/VR Frameworks/OvrAvatar/Scripts/OvrAvatarSkinnedMeshRenderPBSV2Component.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <marker date="1528323783000" expanded="false" signature="6:109" ph="..." />
+            <marker date="1528323783000" expanded="true" signature="191:7727" ph="{...}" />
+            <marker date="1528323783000" expanded="true" signature="662:1814" ph="{...}" />
+            <marker date="1528323783000" expanded="true" signature="1612:1808" ph="{...}" />
+            <marker date="1528323783000" expanded="true" signature="1949:2625" ph="{...}" />
+            <marker date="1528323783000" expanded="true" signature="2402:2581" ph="{...}" />
+            <marker date="1528323783000" expanded="true" signature="2449:2571" ph="{...}" />
+            <marker date="1528323783000" expanded="true" signature="2710:5396" ph="{...}" />
+            <marker date="1528323783000" expanded="true" signature="3381:3480" ph="{...}" />
+            <marker date="1528323783000" expanded="true" signature="3528:3625" ph="{...}" />
+            <marker date="1528323783000" expanded="true" signature="3663:3763" ph="{...}" />
+            <marker date="1528323783000" expanded="true" signature="5058:5243" ph="{...}" />
+            <marker date="1528323783000" expanded="true" signature="5474:7725" ph="{...}" />
+            <marker date="1528323783000" expanded="true" signature="5658:7627" ph="{...}" />
+            <marker date="1528323783000" expanded="true" signature="6074:7562" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/New Item Interactions/SterileGloves.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <marker date="1531490050968" expanded="true" signature="6:92" ph="..." />
+            <marker date="1531490050968" expanded="true" signature="139:1414" ph="{...}" />
+            <marker date="1531490050968" expanded="true" signature="377:416" ph="{...}" />
+            <marker date="1531490050968" expanded="true" signature="473:513" ph="{...}" />
+            <marker date="1531490050968" expanded="true" signature="532:669" ph="{...}" />
+            <marker date="1531490050968" expanded="true" signature="618:663" ph="{...}" />
+            <marker date="1531490050968" expanded="true" signature="707:1407" ph="{...}" />
+            <marker date="1531490050968" expanded="true" signature="948:1115" ph="{...}" />
+            <marker date="1531490050968" expanded="true" signature="1150:1320" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

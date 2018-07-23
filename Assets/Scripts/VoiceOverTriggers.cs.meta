@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 93ee9ce60062c7d4cacf69c893333825
+timeCreated: 1528479501
+licenseType: Pro
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - AS: {instanceID: 0}
+  - NurseBP: {fileID: 8300000, guid: 8611707e886125043ad1cda5ccf42e7c, type: 3}
+  - NurseOxygen: {fileID: 8300000, guid: 4c92d796ae5ee3640902f50c4452ce65, type: 3}
+  - NurseSteth: {fileID: 8300000, guid: b02da5d24f553fb4ab230dfb4740e4ea, type: 3}
+  - NurseBeforeWeBegin: {fileID: 8300000, guid: cb73515ffdc5607419e4c09716e45e4e,
+      type: 3}
+  - NurseTellMeYourName: {fileID: 8300000, guid: 24df6f8955ad34540881aa498da518d2,
+      type: 3}
+  - NurseThermo: {fileID: 8300000, guid: 5ec1e28392f2f564492e37b8389e5d37, type: 3}
+  - PatientMhmm: {fileID: 8300000, guid: 131904c5863852046bfaab86e945da31, type: 3}
+  - PatientMyName: {fileID: 8300000, guid: e2f4fd067c9556a4ab378f32cd1cd891, type: 3}
+  - PatientOK: {fileID: 8300000, guid: a1161c78cf0bfe8468c6292131a91e0e, type: 3}
+  - PatientIFilledItOut: {fileID: 8300000, guid: 006dfcc6b8a8c7d4a8cc02569978b291,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
