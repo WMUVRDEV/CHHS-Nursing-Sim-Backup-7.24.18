@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class Wristband : ItemInteraction {
 	
-	//public ItemInteraction interaction = new ItemInteraction(); 
-	//public xTask Task = new xTask();
-	
-	
 	public AudioClip nurseClip;
 	public AudioClip patientClip;
 
@@ -15,24 +11,35 @@ public class Wristband : ItemInteraction {
 	public bool wristbandIsRead;
 
 	public Transform wristReturn;
-	
-	
-	public override void Grabbed()
+
+    public Canvas wristbandCanvas;
+
+     void Start()
+    {
+        wristbandCanvas.enabled = false;
+    }
+
+    public override void Grabbed()
 	{
-		StartCoroutine(ReadWrist());
+        wristbandCanvas.enabled = true;
+        StartCoroutine(ReadWrist());
+        
 	}
 	
 	IEnumerator ReadWrist()
-	{  
-		thisAudio.clip = nurseClip;
-		//thisAudio.Play();
-		yield return new WaitForSeconds(3.5f);
-		thisAudio.Stop();
-		thisAudio.clip = patientClip;
-		//thisAudio.Play();
-		yield return new WaitForSeconds(3.5f);
-		thisAudio.Stop();
-		Task.CheckTasks(true);
+	{
+        yield return new WaitForSeconds(8.5f);
+        wristbandCanvas.enabled = false;
+
+        //       thisAudio.clip = nurseClip;
+        //       //thisAudio.Play();
+        //       yield return new WaitForSeconds(3.5f);
+        //       thisAudio.Stop();
+        //       thisAudio.clip = patientClip;
+        //       //thisAudio.Play();
+        //       yield return new WaitForSeconds(3.5f);
+        //       thisAudio.Stop();
+        Task.CheckTasks(true);
 	}
 
 }
