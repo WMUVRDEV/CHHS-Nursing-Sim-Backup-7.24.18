@@ -31,22 +31,25 @@ public class BloodAdminChecklist : MonoBehaviour {
 
 
 
-    //public 
+    public void NextPage() {  
         
-        void Start () {
-        //  pageNumber++;
+     //   void Start () {
+          pageNumber++;
 
         switch (pageNumber)
         {
             case 0:
                 // Does the patient have a medical order for a blood transfusion?
+                bloodAdminTitle.text = questions[pageNumber];
 
                 break;
             case 1:
                 //Has the patient given consent?
+                bloodAdminTitle.text = questions[pageNumber];
                 break;
             case 2:
                 //What is the patient identification number?
+                bloodAdminTitle.text = questions[pageNumber];
 
                 for (int i = 0; i < bloodAdminButtonText.Count; i++)
                 {
@@ -57,7 +60,7 @@ public class BloodAdminChecklist : MonoBehaviour {
             case 3:
                 //What is the patients name?
 
-                bloodAdminTitle.text = questions[3];
+                bloodAdminTitle.text = questions[pageNumber];
 
 
                 for (int i = 0; i < bloodAdminButtonText.Count; i++)
@@ -70,6 +73,7 @@ public class BloodAdminChecklist : MonoBehaviour {
 
             case 4:
                 //What is the labeled blood group and blood type?
+                bloodAdminTitle.text = questions[pageNumber];
 
                 for (int i = 0; i < bloodAdminButtonText.Count; i++)
                 {
@@ -79,6 +83,7 @@ public class BloodAdminChecklist : MonoBehaviour {
                 break;
             case 5:
                 //What is the labeled expiration date?
+                bloodAdminTitle.text = questions[pageNumber];
 
                 for (int i = 0; i < bloodAdminButtonText.Count; i++)
                 {
@@ -87,6 +92,7 @@ public class BloodAdminChecklist : MonoBehaviour {
                 }
                 break;
             case 6:
+                bloodAdminTitle.text = questions[pageNumber];
                 //Were blood clots, clumping, or gas bubbles found when inspecting?
                 break;
             default:
