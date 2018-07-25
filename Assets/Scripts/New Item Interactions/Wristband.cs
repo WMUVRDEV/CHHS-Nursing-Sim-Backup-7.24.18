@@ -22,23 +22,19 @@ public class Wristband : ItemInteraction {
     public override void Grabbed()
 	{
         wristbandCanvas.enabled = true;
-        StartCoroutine(ReadWrist());
-        
+        StartCoroutine(ReadWrist()); 
 	}
+
+  public  void clickedButton()
+    {
+        wristbandCanvas.enabled = false;
+        Task.CheckTasks(true);
+    }
 	
 	IEnumerator ReadWrist()
 	{
-        yield return new WaitForSeconds(8.5f);
+        yield return new WaitForSeconds(20.0f);
         wristbandCanvas.enabled = false;
-
-        //       thisAudio.clip = nurseClip;
-        //       //thisAudio.Play();
-        //       yield return new WaitForSeconds(3.5f);
-        //       thisAudio.Stop();
-        //       thisAudio.clip = patientClip;
-        //       //thisAudio.Play();
-        //       yield return new WaitForSeconds(3.5f);
-        //       thisAudio.Stop();
         Task.CheckTasks(true);
 	}
 
