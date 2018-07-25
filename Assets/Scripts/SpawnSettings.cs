@@ -3,75 +3,87 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SpawnSettings : MonoBehaviour {
-	public GameObject IVSpawn;
-	public GameObject FootOfBed;
-	public GameObject BPMachine;
-	
-	public GameObject CameraRig;
-	
-	public bool IVSpawnPoint = false;
-	public bool FootOfBedSpawn = false;
-	public bool BPMachineSpawn = false;
+	public GameObject leftBedDest;
+	public GameObject rightBedDest;
+    GameObject LocalAvatObj;
+    GameObject VRTKObj;
 
-	/* public bool IVSpawnPointToggle = true;
-	public bool FootOfBedSpawnToggle = true;
-	public bool BPMachineSpawnToggle = true;*/
+    public bool leftBedSpawn = false;
+    public bool rightBedSpawn = false;
+
+
 	
 	
 	// Use this for initialization
 	void Start () {
+        LocalAvatObj = GameObject.Find("LocalAvatar");
+        VRTKObj = GameObject.Find("VRTK");
+        CheckNull(VRTKObj);
+        CheckNull(LocalAvatObj);
 		spawnPoint();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+    private void Update()
+    {
+        //Debug.Log(LocalAvatObj.transform.position);
+        CheckAvatarTransform();
+    }
+
+    //Select Spawn Point
+    public void spawnPoint(){
+		if(leftBedSpawn == true)
+        {
+            rightBedSpawn = false;
+            LocalAvatObj.transform.position = leftBedDest.transform.position;
+            VRTKObj.transform.position = leftBedDest.transform.position;
+            leftBedDest.SetActive(false);
+            Debug.Log("Left spawn point selected");
+        }
+
+        else if(rightBedSpawn == true)
+        {
+            leftBedSpawn = false;
+            rightBedDest.SetActive(false);
+            LocalAvatObj.transform.position = rightBedDest.transform.position;
+            VRTKObj.transform.position = rightBedDest.transform.position;
+            Debug.Log("Right spawn point selected");
+        }
+
+        else
+        {
+            Debug.Log("No spawn point selected");
+        }
 	}
-	void FixedUpdate(){
-		HideDestinationPoint();
-	}
-	
-	//Fucntions
-	
-	//Select Spawn Point
-	public void spawnPoint(){
-		if (IVSpawnPoint == true){
-			FootOfBedSpawn = false;
-			BPMachineSpawn = false;
-			CameraRig.transform.position = new Vector3(IVSpawn.transform.position.x, 0, IVSpawn.transform.position.z);
-		}
-		if (FootOfBedSpawn == true){
-			IVSpawnPoint = false;
-			BPMachineSpawn = false;
-			CameraRig.transform.position = new Vector3(FootOfBed.transform.position.x, 0, FootOfBed.transform.position.z);
-		}
-		if (BPMachineSpawn == true){
-			IVSpawnPoint = false;
-			FootOfBedSpawn = false;
-			CameraRig.transform.position =new Vector3(BPMachine.transform.position.x, 0, BPMachine.transform.position.z);
-		}
-	}
-	//When on teleport location, turn of relevant GameObject
-	public void HideDestinationPoint(){
-		if (CameraRig.transform.position == IVSpawn.transform.position){
-			IVSpawn.SetActive(false);
-		}
-		else{
-			IVSpawn.SetActive(true);
-		}
-		if(CameraRig.transform.position == FootOfBed.transform.position){
-			FootOfBed.SetActive(false);
-		}
-		else{
-			FootOfBed.SetActive(true);
-		}
-		if(CameraRig.transform.position == BPMachine.transform.position){
-			BPMachine.SetActive(false);
-		}
-		else{
-			BPMachine.SetActive(true);
-		}
-	}
+
+    void CheckAvatarTransform()
+    {
+        if (rightBedSpawn == true) {
+            if (LocalAvatObj.transform.position.z > -.4f)
+            {
+                rightBedDest.SetActive(true);
+                LocalAvatObj.GetComponent<SpawnSettings>().enabled = false;
+            }
+        }
+
+        else if (leftBedSpawn == true)
+        {
+            if (LocalAvatObj.transform.position.z < .9f)
+            {
+                leftBedDest.SetActive(true);
+                LocalAvatObj.GetComponent<SpawnSettings>().enabled = false;
+            }
+        }
+    }
+
+
+    void CheckNull(GameObject test)
+    {
+        if(test == null)
+        {
+            Debug.Log(test.name + " Is Null");
+            test.SetActive(false);
+        }
+    }
 	
 	
 }
