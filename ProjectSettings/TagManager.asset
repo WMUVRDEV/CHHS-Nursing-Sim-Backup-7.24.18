@@ -25,9 +25,6 @@ TagManager:
   - Hard Surface
   - Soft Surface
   - SalineCap
-  - arms
-  - end
-  - poke
   layers:
   - Default
   - TransparentFX

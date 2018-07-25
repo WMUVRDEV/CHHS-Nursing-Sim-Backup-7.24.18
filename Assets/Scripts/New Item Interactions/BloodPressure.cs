@@ -28,7 +28,7 @@ public class BloodPressure : ItemInteraction {
     public OvrAvatar avatar;
     public GameObject rightHandPointerPose;
 
-    public void DontRun()
+    public void InPointerZone()
     {    
         avatar.RightHandCustomPose = rightHandPointerPose.transform;
         Debug.Log("In Pointer Zone");
@@ -55,7 +55,7 @@ public class BloodPressure : ItemInteraction {
        // StartCoroutine(WaitTime());
     }
 
-    public void DontRunExit()
+    public void OutOfPointerZone()
     {
         avatar.RightHandCustomPose = null;
         Destroy(tipOfPointerFinger.GetComponent<BoxCollider>());

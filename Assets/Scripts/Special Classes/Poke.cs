@@ -14,19 +14,23 @@ public class Poke : MonoBehaviour
 	public UnityEvent UnpokeEvent;
 	public VRTK_InteractTouch touch;
 	public GameObject me;
+	
+	private void OnTriggerEnter(Collider other)
+	{
+		if (other.tag == "poke")
+		{
+			PokeEvent.Invoke();
+			Debug.Log(gameObject.name + " " + other.name);
+		}
+		
+		
+	//	touch.ForceTouch(me);
+	//	touch.IsObjectInteractable(me);
+		//	vrtkObject.StartTouching();
+		//	vrtkObject.InteractableObjectTouched(other.gameObject);
 
-    private void OnTriggerEnter(Collider other)
-    {
-
-        Debug.Log(other.gameObject.name);
-        if (other.tag == "poke")
-        {
-            PokeEvent.Invoke();
-            Debug.Log(gameObject.name + " " + other.name);
-        }
-
-    }
-
+	}
+	
 	private void OnTriggerExit(Collider other)
 	{
 		UnpokeEvent.Invoke();
