@@ -18,21 +18,25 @@ public class PokeZone : MonoBehaviour {
 
         if (GameObject.Find("hands:b_r_index_ignore") != null)
         {
-            //Debug.Log("Index Finger Found");
             tipOfPointerFinger = GameObject.Find("hands:b_r_index_ignore");
             tipOfPointerFinger.tag = "poke";
-
             Collider tipCollider = tipOfPointerFinger.GetComponent<SphereCollider>();
 
             if (tipCollider == null)
             {
                 tipOfPointerFinger.AddComponent<SphereCollider>().radius = 0.01f;
 
-                Rigidbody fingerRB = tipOfPointerFinger.AddComponent<Rigidbody>();
+            }
 
-                fingerRB.isKinematic = true;
-                fingerRB.useGravity = false;
-                tipOfPointerFinger.AddComponent<DetectCollision>();
+            else
+            {
+                Rigidbody fingerRB = tipOfPointerFinger.AddComponent<Rigidbody>();
+                if (fingerRB != null)
+                {
+                    fingerRB.isKinematic = true;
+                    fingerRB.useGravity = false;
+                    tipOfPointerFinger.AddComponent<DetectCollision>();
+                }
             }
         }
 
@@ -48,6 +52,7 @@ public class PokeZone : MonoBehaviour {
     public void OnTriggerExit()
     {
         avatar.RightHandCustomPose = null;
+        tipOfPointerFinger.tag = "Untagged";
         Destroy(tipOfPointerFinger.GetComponent<BoxCollider>());
         Destroy(tipOfPointerFinger.GetComponent<Rigidbody>());
     }

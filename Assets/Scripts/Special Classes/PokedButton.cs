@@ -22,6 +22,8 @@ public class PokedButton : MonoBehaviour {
 
     public void pokedButton()
     {
+
+        Debug.Log("Poke");
         cb.normalColor = pressedColor;
         thisButton.colors = cb;
         thisButton.onClick.Invoke();
